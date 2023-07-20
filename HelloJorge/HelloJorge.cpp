@@ -24,23 +24,23 @@ int main(int argc, char** argv)
 
         if (karma == 0 || karma < 35)
         {
-            std::cout << "Muy malo\n";
+            std::cout << "Pesima persona\n";
         }
         else if (karma == 35 || karma < 95)
         {
-            std::cout << "Malo normal\n";
+            std::cout << "Mala persona\n";
         }
         else if (karma == 95 || karma < 115)
         {
-            std::cout << "Neutro\n";
+            std::cout << "Persona neutral\n";
         }
         else if (karma == 115 || karma < 200)
         {
-            std::cout << "Bueno\n";
+            std::cout << "Persona buena\n";
         }
         else
         {
-            std::cout << "Muy bueno\n";
+            std::cout << "Muy buena persona\n";
         }
     }
 
